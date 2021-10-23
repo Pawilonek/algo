@@ -3,7 +3,7 @@ package graph
 import (
 	"fmt"
 
-	"github.com/pawilonek/algo/queue"
+	"github.com/Pawilonek/algo/queue"
 )
 
 type Graph struct {

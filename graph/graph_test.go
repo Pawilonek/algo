@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pawilonek/algo/graph"
+	"github.com/Pawilonek/algo/graph"
 )
 
 func TestBreadthFirstSearch(t *testing.T) {

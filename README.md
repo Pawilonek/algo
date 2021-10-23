@@ -1,16 +1,24 @@
-# Pawilonek's alog
+# Pawilonek's algo
 
 ⚠️ My implementation of some algorithms. This is a pure learning repository so if you want to use it do it at your own risk.
+
+# Instalation
+
+Instal as a module for your project:
+
+```bash
+go get github.com/Pawilonek/algo
+```
 
 # Algorithms
 
 ## Queue
 
-FIFO queue that accepts any type of variable.
-Example usage:
+FIFO queue that accepts any type of variable. Example usage:
+
 ```go
 
-import "github.com/pawilonek/algo/queue"
+import "github.com/Pawilonek/algo/queue"
 
 [..]
 
@@ -23,4 +31,3 @@ for !q.IsEmpty {
 }
 ```
 
-## 

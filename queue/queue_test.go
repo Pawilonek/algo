@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pawilonek/algo/queue"
+	"github.com/Pawilonek/algo/queue"
 )
 
 func TestQueueOrder(t *testing.T) {
