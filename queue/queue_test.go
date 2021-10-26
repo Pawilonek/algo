@@ -56,3 +56,15 @@ func TestIsEmpty(t *testing.T) {
 		t.Errorf("Queue shoud be empty with all the elements pulled from queue")
 	}
 }
+
+func BenchmarkQueue(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		q := queue.NewQueue()
+		for i := 0; i < 10000; i++ {
+			q.Push(fmt.Sprintf("test value no. %d", i))
+		}
+		for !q.IsEmpty() {
+			q.Pop()
+		}
+	}
+}

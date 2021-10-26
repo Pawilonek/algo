@@ -5,3 +5,5 @@ run:
 test:
 	go test ./...
 
+bench-queue:
+	cd queue; go test -bench=.
