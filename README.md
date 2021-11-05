@@ -31,3 +31,22 @@ for !q.IsEmpty() {
 }
 ```
 
+## Stack
+
+FILO queue that accepts any type of variable. Example usage:
+
+```go
+
+import "github.com/Pawilonek/algo/stack"
+
+[..]
+
+s := stack.New()
+s.Push("element 1")
+s.Push("element 2")
+
+for !s.IsEmpty() {
+    fmt.Println(s.Pop())
+}
+```
+
