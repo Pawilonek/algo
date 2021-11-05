@@ -26,7 +26,7 @@ q := queue.NewQueue()
 q.Push("element 1")
 q.Push("element 2")
 
-for !q.IsEmpty {
+for !q.IsEmpty() {
     fmt.Println(q.Pop())
 }
 ```
